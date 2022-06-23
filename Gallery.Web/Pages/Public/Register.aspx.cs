@@ -70,7 +70,7 @@ namespace Gallery.Web.Pages.Public
 
         private void SendRegistrationMail()
         {
-            MailMessage mail = new MailMessage("e.khomasuridzemails@yahoo.com", inputEmail.Text);
+            MailMessage mail = new MailMessage("demsona12@yahoo.com", inputEmail.Text);
             mail.Subject = "Registration on Gallery project";
             mail.Body = "Hello, you have been successfully registerd";
 
